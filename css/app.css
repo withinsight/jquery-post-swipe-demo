@@ -1,0 +1,58 @@
+/* jQuery Post Swipe Demo */
+
+.ui-content {
+	padding: 0;
+}
+
+#list {
+	width: 35%;
+	height: 500px;
+	float: left;
+	background-color: #e2e2e2;
+}
+
+#content {
+	width: 65%;
+	height: 500px;
+	float: left;
+	overflow: hidden;
+}
+
+.ui-content .ui-listview {
+	margin: 0;
+}
+
+.post {
+	height: 500px;
+	padding: 0;
+	background-color: #d9d9d9;
+}
+
+h1 {
+	padding: 10px;
+	margin: 0;
+}
+
+.animate {
+	-webkit-transition: all 350ms ease;
+	-moz-transition: all 350ms ease;
+	transition: all 350ms ease;
+}
+
+.translate3dIn {
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.translate3dOutRight {
+	-webkit-transform: translate3d(100%,0,0);
+	-moz-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+}
+
+.translate3dOutLeft {
+	-webkit-transform: translate3d(-100%,0,0);
+	-moz-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+}
