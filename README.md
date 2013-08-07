@@ -1,5 +1,5 @@
-jquery-post-swipe
-=================
+jquery-post-swipe-demo
+======================
 
 Swipe to reach the next or previous post in a list of stories.
 
